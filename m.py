@@ -278,10 +278,10 @@ def show_command_logs(message):
 @bot.message_handler(commands=['help'])
 def show_help(message):
     help_text = '''Available commands:
- /bgmi : 𝗠𝗲𝘁𝗵𝗼𝗱 𝗙𝗼𝗿 𝗕𝗴𝗺𝗶 𝗦𝗲𝗿𝘃𝗲𝗿𝘀. 
- /rules : 𝗣𝗹𝗲𝗮𝘀𝗲 𝗖𝗵𝗲𝗰𝗸 𝗕𝗲𝗳𝗼𝗿𝗲 𝗨𝘀𝗲!!.
- /mylogs : 𝗧𝗼 𝗖𝗵𝗲𝗰𝗸 𝗬𝗼𝘂𝗿 𝗥𝗲𝗰𝗲𝗻𝘁𝘀 𝗔𝘁𝘁𝗮𝗰𝗸𝘀.
- /plan : 𝗖𝗵𝗲𝗰𝗸𝗼𝘂𝘁 𝗢𝘂𝗿 𝗕𝗼𝘁𝗻𝗲𝘁 𝗥𝗮𝘁𝗲𝘀.
+ /bgmi : 𝗠𝗲𝘁𝗵𝗼𝗱 𝗙𝗼𝗿 𝗕𝗴𝗺𝗶 𝗦𝗲𝗿𝘃𝗲𝗿𝘀🔝. 
+ /rules : 𝗣𝗹𝗲𝗮𝘀𝗲 𝗖𝗵𝗲𝗰𝗸 𝗕𝗲𝗳𝗼𝗿𝗲 𝗨𝘀𝗲!!⚠️.
+ /mylogs : 𝗧𝗼 𝗖𝗵𝗲𝗰𝗸 𝗬𝗼𝘂𝗿 𝗥𝗲𝗰𝗲𝗻𝘁𝘀 𝗔𝘁𝘁𝗮𝗰𝗸𝘀⚙️.
+ /plan : 𝗖𝗵𝗲𝗰𝗸𝗼𝘂𝘁 𝗢𝘂𝗿 𝗕𝗼𝘁𝗻𝗲𝘁 𝗥𝗮𝘁𝗲𝘀💲.
 
  🆃🅾 🆂🅴🅴 🅰🅳🅼🅸🅽 🅲🅾🅼🅼🅰🅽🅳🆂:
  /admincmd : 𝗦𝗵𝗼𝘄𝘀 𝗔𝗹𝗹 𝗔𝗱𝗺𝗶𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀.
@@ -300,18 +300,19 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy @𝐙𝐞𝐫𝐨𝐱💎"
+    response = f"𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐘𝐨𝐮𝐫 𝐇𝐨𝐦𝐞, 𝐎𝐤! 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐭𝐨 𝐄𝐱𝐩𝐥𝐨𝐫𝐞.
+𝐓𝐫𝐲 𝐓𝐨 𝐑𝐮𝐧 𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : /help
+𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐓𝐡𝐞 𝐖𝐨𝐫𝐥𝐝'𝐬 𝐁𝐞𝐬𝐭 𝐃𝐝𝐨𝐬 𝐁𝐨𝐭
+𝐁𝐲 @𝐙𝐞𝐫𝐨𝐱💎"
     bot.reply_to(message, response)
 
 
 @bot.message_handler(commands=['rules'])
 def welcome_rules(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name} Please Follow These Rules:
+    response = f'''{user_name} ℙ𝕝𝕖𝕒𝕤𝕖 𝔽𝕠𝕝𝕝𝕠𝕨 𝕋𝕙𝕖𝕤𝕖 ℝ𝕦𝕝𝕖𝕤:
 
-1. Dont Run Too Many Attacks !! Cause A Ban From Bot
-2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot. 
-3. We Daily Checks The Logs So Follow these rules to avoid Ban!!
+1. ᴅᴏɴᴛ ʀᴜɴ ᴛᴏᴏ ᴍᴀɴʏ ᴀᴛᴛᴀᴄᴋꜱ !! ᴄᴀᴜꜱᴇ ᴀ ʙᴀɴ ꜰʀᴏᴍ ʙᴏᴛ 2. ᴅᴏɴᴛ ʀᴜɴ 2 ᴀᴛᴛᴀᴄᴋꜱ ᴀᴛ ꜱᴀᴍᴇ ᴛɪᴍᴇ ʙᴇᴄᴢ ɪꜰ ᴜ ᴛʜᴇɴ ᴜ ɢᴏᴛ ʙᴀɴɴᴇᴅ ꜰʀᴏᴍ ʙᴏᴛ. 3. ᴡᴇ ᴅᴀɪʟʏ ᴄʜᴇᴄᴋꜱ ᴛʜᴇ ʟᴏɢꜱ ꜱᴏ ꜰᴏʟʟᴏᴡ ᴛʜᴇꜱᴇ ʀᴜʟᴇꜱ ᴛᴏ ᴀᴠᴏɪᴅ ʙᴀɴ!!
 By @𝐙𝐞𝐫𝐨𝐱💎'''
     bot.reply_to(message, response)
 
