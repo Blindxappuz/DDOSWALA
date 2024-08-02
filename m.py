@@ -300,10 +300,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐘𝐨𝐮𝐫 𝐇𝐨𝐦𝐞, 𝐎𝐤! 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐭𝐨 𝐄𝐱𝐩𝐥𝐨𝐫𝐞.
-𝐓𝐫𝐲 𝐓𝐨 𝐑𝐮𝐧 𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : /help
-𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐓𝐡𝐞 𝐖𝐨𝐫𝐥𝐝'𝐬 𝐁𝐞𝐬𝐭 𝐃𝐝𝐨𝐬 𝐁𝐨𝐭
-𝐁𝐲 @𝐙𝐞𝐫𝐨𝐱💎"
+    response = f"ᗯEᒪᑕOᗰE TO YOᑌᖇ ᕼOᗰE, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nW̳e̳l̳c̳o̳m̳e̳ ̳T̳o̳ ̳T̳h̳e̳ ̳W̳o̳r̳l̳d̳'̳s̳ ̳B̳e̳s̳t̳ ̳D̳d̳o̳s̳ ̳B̳o̳t̳\nBy 𝐙𝐞𝐫𝐨𝐱💎"
     bot.reply_to(message, response)
 
 
